@@ -14,3 +14,10 @@
 | Web Application Infrastructure | Describe la estructura de los componentes requeridos, como la base de datos, necesarios para que la aplicación web funcione según lo previsto. Dado que la aplicación web puede configurarse para ejecutarse en un servidor separado, es esencial saber a qué servidor de base de datos necesita acceder. |
 | Web Application Components | Representa todos los componentes con los que interactúa la aplicación web. Estos se dividen en tres áreas: UI/UX, Client y Server Components. |
 | Web Application Architecture | Comprende todas las relaciones entre los diversos componentes de la aplicación web. |
+
+## Tipos de arquitecturas
+| Capa | Descripción |
+|---|---|
+| Presentation Layer | Consiste en componentes de interfaz de usuario que permiten la comunicación con la aplicación y el sistema. El cliente puede acceder a estos componentes a través del navegador web, y se devuelven en forma de HTML, JavaScript y CSS. |
+| Application Layer | Garantiza que todas las solicitudes de los clientes, como solicitudes web, se procesen correctamente. En esta capa se comprueban criterios como autorización, privilegios y datos transmitidos al cliente. |
+| Data Layer | Trabaja en estrecha colaboración con la capa de aplicación para determinar dónde se almacenan los datos requeridos y cómo se puede acceder a ellos. |
